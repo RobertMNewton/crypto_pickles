@@ -1,0 +1,13 @@
+OrderbookFrames: 3000
+ChangeoverFrames: 10
+
+Buffer: 8
+
+Format: bin
+
+Symbols:
+  - btcusdt
+Filepath: temp
+Aws: 0
+Logger: 1
+LogFilepath: logs/debug.txt

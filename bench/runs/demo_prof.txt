@@ -1,0 +1,26 @@
+2023/07/13 22:43:37 New Logger Started
+2023/07/13 22:46:42 Sent 86 requests over 180.00 s. Got 
+ Average Latency: 2093 ms 
+ Average RPS: 0.2378 
+ Errors: 0 
+2023/07/13 22:46:42 Graph: 
+  6.90 ┤╭╮
+ 5.75 ┤│╰╮
+ 4.60 ┤│ ╰──────────────
+ 3.45 ┤│
+ 2.30 ┤│
+ 1.15 ┤│
+ 0.00 ┼╯ 
+2023/07/13 23:00:45 New Logger Started
+2023/07/13 23:07:33 New Logger Started
+2023/07/13 23:10:38 Sent 91 requests over 180.00 s. Got 
+ Average Latency: 1978 ms 
+ Average RPS: 0.2510 
+ Errors: 0 
+2023/07/13 23:10:38 Graph: 
+  4.43 ┤╭────────────────
+ 3.32 ┤│
+ 2.21 ┤│
+ 1.11 ┤│
+ 0.00 ┼╯ 
+2023/07/13 23:11:19 New Logger Started

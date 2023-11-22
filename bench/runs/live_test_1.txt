@@ -1,0 +1,56 @@
+2023/07/11 13:24:03 New Logger Started
+2023/07/11 14:16:10 New Logger Started
+2023/07/11 14:19:41 New Logger Started
+2023/07/11 14:24:25 New Logger Started
+2023/07/11 14:50:25 New Logger Started
+2023/07/11 15:00:17 New Logger Started
+2023/07/11 15:07:44 New Logger Started
+2023/07/11 15:19:37 New Logger Started
+2023/07/11 15:22:39 Sent 89 requests over 180.00 s. Got 
+ Average Latency: 2022 ms 
+ Average RPS: 0.2463 
+ Errors: 0 
+2023/07/11 15:22:39 Graph: 
+ 4.54 ┤╭───╮╭─╮ ╭───────
+ 3.40 ┤│   ╰╯ ╰─╯
+ 2.27 ┤│
+ 1.13 ┤│
+ 0.00 ┼╯ 
+2023/07/13 18:57:25 New Logger Started
+2023/07/13 19:00:35 Sent 89 requests over 180.00 s. Got 
+ Average Latency: 2022 ms 
+ Average RPS: 0.2430 
+ Errors: 0 
+2023/07/13 19:00:35 Graph: 
+  4.32 ┤╭────────────────
+ 3.24 ┤│
+ 2.16 ┤│
+ 1.08 ┤│
+ 0.00 ┼╯ 
+2023/07/13 19:04:13 New Logger Started
+2023/07/13 19:07:20 Sent 89 requests over 180.00 s. Got 
+ Average Latency: 2022 ms 
+ Average RPS: 0.2434 
+ Errors: 0 
+2023/07/13 19:07:20 Graph: 
+ 7.23 ┤╭╮
+ 6.20 ┤│╰╮
+ 5.16 ┤│ │
+ 4.13 ┤│ ╰──────────────
+ 3.10 ┤│
+ 2.07 ┤│
+ 1.03 ┤│
+ 0.00 ┼╯ 
+2023/07/13 22:13:40 New Logger Started
+2023/07/13 22:16:21 New Logger Started
+2023/07/13 22:17:00 New Logger Started
+2023/07/13 22:20:27 Sent 87 requests over 180.00 s. Got 
+ Average Latency: 2068 ms 
+ Average RPS: 0.2367 
+ Errors: 0 
+2023/07/13 22:20:27 Graph: 
+ 4.48 ┤╭─╮      ╭───────
+ 3.36 ┤│ ╰──────╯
+ 2.24 ┤│
+ 1.12 ┤│
+ 0.00 ┼╯ 

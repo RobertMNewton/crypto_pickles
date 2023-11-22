@@ -1,0 +1,23 @@
+OrderbookFrames: 3000
+ChangeoverFrames: 100
+
+Buffer: 32
+
+Format: msgpack
+
+Symbols:
+  - btcusdt
+  - ethusdt
+  - bchusdt
+  - ltcusdt
+  - xrpusdt
+
+Aws: 1
+Key:
+Secret: 
+Region: 
+ 
+BucketName: datapickles
+
+Logger: 1
+LogFilepath: logs/logs.txt
