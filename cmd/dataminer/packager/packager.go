@@ -35,11 +35,7 @@ func (packager *Packager) Start() {
 
 			var bytes []byte
 			if packager.format == "json" {
-				bytes = orderbook.HistToBytes(newHist)
-			} else if packager.format == "bin" {
-				bytes = orderbook.HistToBytes(newHist)
-			} else if packager.format == "msgpack" {
-				bytes = orderbook.HistToMsgPack(newHist)
+				bytes = orderbook.HistToJson(newHist)
 			}
 
 			name := fmt.Sprintf("%s/%d-%d.%s", newHist.Symbol, newHist.GetStartTime(), newHist.GetEndTime(), packager.format)
@@ -53,13 +49,13 @@ func (packager *Packager) Start() {
 			if len(packager.local) > 0 {
 				go func() {
 					if _, err := os.Stat(packager.local); os.IsNotExist(err) {
-						if err := os.Mkdir(packager.local, os.ModePerm); err != nil {
+						if err := os.MkdirAll(packager.local, os.ModePerm); err != nil {
 							log.Fatalf("Failed to create directory %s. Got error %s \n", packager.local, err)
 						}
 					}
 
 					if _, err := os.Stat(packager.local + "/" + newHist.Symbol); os.IsNotExist(err) {
-						if err := os.Mkdir(packager.local+"/"+newHist.Symbol, os.ModePerm); err != nil {
+						if err := os.MkdirAll(packager.local+"/"+newHist.Symbol, os.ModePerm); err != nil {
 							log.Fatalf("Failed to create sub directory %s. Got error %s \n", packager.local+"/"+newHist.Symbol, err)
 						}
 					}

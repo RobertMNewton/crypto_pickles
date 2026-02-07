@@ -1,0 +1,15 @@
+OrderbookFrames: 600
+ChangeoverFrames: 10
+
+Buffer: 8
+
+Format: json
+
+Symbols:
+  - btcusdt
+
+Filepath: data/json
+Aws: 0
+
+Logger: 1
+LogFilepath: logs/local-json.txt
